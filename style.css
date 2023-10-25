@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-shadow: 1px 1px 2px pink;
+}
+
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header {
+    background-color: rgb(27, 27, 50);
+    color: white;
+    padding: 5px 55px;
+}
+
+.bar {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+} 
+
+.logo {
+    font-weight: bold;
+    font-size: medium;
+    opacity: 0.9;
+    margin-left: 40px;
+
+}
+
+.risky {
+    border-radius: 8px;
+}
+
+.headers {
+    display: flex;
+    font-size: small;
+    gap: 20px;
+    color: lightgray;
+}
+
+.intro {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 60px 5px;
+}
+
+.intro-left {
+    text-align: left;
+    margin: 10px;
+    color: lightgray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.description {
+    margin-bottom: 10px;
+}
+
+.firstbutton {
+    background-color: rgb(21, 158, 249);
+    color: white;
+    border-radius: 10px;
+    padding: 2px 15px;
+    margin-top: 30px;
+}
+
+.intro-right {
+    background-color: gray;
+    color: lightgray;
+    margin: 10px;
+    text-align: center;
+    opacity: 0.7;
+    border-radius: 10px;
+}
+
+h2 {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.presssection {
+    padding: 55px;
+}
+
+.vignettes {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.artists {
+    text-align: center;
+}
+
+.artistspic {
+    padding: 30px;
+    border: solid blue;
+    border-radius: 5px;
+}
+
+.artistsname {
+    padding-top: 20px;
+}
+
+.quotesection {
+    background-color: lightgray;
+    padding: 70px 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    text-align: center;
+    font-style: italic;
+    font-weight: 50;
+}
+
+.quoteauthor {
+    text-align: right;
+    font-weight: bold;
+}
+
+.booksection {
+    margin: 100px;
+}
+
+.container {
+    display: flex;
+    background-color: blue;
+    border-radius: 10px;
+    padding: 30px 55px;
+    gap: 50px;
+}
+
+.booknow {
+    color: white;
+}
+
+.book {
+    background-color: rgb(6, 181, 245);
+    border: solid white;
+    color: white;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: rgb(27, 27, 50);
+    color: white;
+    text-align: center;
+    font-size: small;
+    padding: 20px;
+}
